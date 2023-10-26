@@ -1,6 +1,6 @@
 import "./globals.css";
 import React from 'react'
-// import { RiTodoLine } from "react-icons/ri";
+import { RiTodoLine } from "react-icons/ri";
 import AddTodo from './component/AddTodo'
 import {Todos} from './component/Todos'
 import Navbar from "./component/navbar";
@@ -9,8 +9,7 @@ import Navbar from "./component/navbar";
 const page = () => {
   return (
     <main>
-       {/* <h2><RiTodoLine className="icons" /> TODO NEXT + TYPESCRIPT <RiTodoLine className="icons" /> </h2> */}
-      <h2>TODO NEXT + TYPESCRIPT</h2>
+       <h2><RiTodoLine className="icons" /> TODO NEXT + TYPESCRIPT <RiTodoLine className="icons" /> </h2>
 <Navbar />
       <AddTodo/>
       <Todos/>
